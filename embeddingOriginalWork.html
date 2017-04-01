@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <div style="text-align:center">
+        <title>Info 101 MASTER</title>
+    </head>
+    <body>
+        <h1>MASTER</h1>
+        <iframe width="700" height="500" frameborder="0" allowfullscreen=""
+        src="https://www.youtube.com/embed/dTW2MxfqVLI?start=180&autoplay=1">
+        </iframe>
+        <br><br>
+        <button onclick="playPause()">Play/Pause</button> 
+        <br><br>
+        <video id="video" width="500">
+        <source src="LET'S NOT FALL IN LOVE MV.mp4" type="video/mp4">
+    </video>
+    <br><br>
+    <object type="application/pdf" data="RenaissanceItaly_outline.pdf">
+     </object>
+    </div>
+    <script> 
+    var myVideo = document.getElementById("video"); 
+        function playPause() { 
+            if (myVideo.paused) 
+                myVideo.play(); 
+            else 
+                myVideo.pause(); 
+        } 
+    </script>   
+    </body>
+</html>
