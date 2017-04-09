@@ -1,0 +1,29 @@
+h1   {color: blueviolet;}
+p    {font-family:verdana;
+    border: 1px solid blueviolet;
+     }
+p2    {font-family:'Times New Roman';
+    border-style: dotted}
+image{
+    position: relative;
+    width:100%
+}
+h3{
+    position:absolute;
+    top:365px;
+    left:120px;
+    width:100%;
+}
+img.tree {
+    float: right;
+}
+#rcorners { 
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+
+}
